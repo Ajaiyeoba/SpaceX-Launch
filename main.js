@@ -18,7 +18,7 @@ fetch('https://api.spacexdata.com/v5/launches/latest')
              <img src="${missionPatch}" alt="${data.name} {
              }" class="center-img">
           <div>${flickrImageMarkup}</div>
-          <p class="learn">Flight Number${data.flight_number}</p>
+          <p class="learn">Flight Number ${data.flight_number}</p>
             <p class=""> Date: ${new Date(data.date_utc).toLocaleString()}</p>
           <h1>Mission: ${data.name}</h1>
           
